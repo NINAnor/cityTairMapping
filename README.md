@@ -7,7 +7,7 @@ Simplified scripts for the spatial interpolation of point air temperature (Tair)
 ### Workflow:
 1. **Collect Netatmo private weather station data**
 
-The "Netatmo_data_fetch_template.ipynb" file is a Python notebook that can be run in Google Colab or similar to collect historical Tair data for Netatmo weather stations over an area of your choosing. Explore the [Netatmo weather map](https://weathermap.netatmo.com/) to get an idea for the station availability in your desired area. The data is exported to your Google Drive and you download from there to process it further locally in R.
+The "Netatmo_data_fetch_template.ipynb" file is a Python notebook that can be run in Google Colab or similar to collect historical Tair data for Netatmo weather stations over an area of your choosing. You need to register a Netatmo developer account on the netatmo website in order to make calls to their API. Explore the [Netatmo weather map](https://weathermap.netatmo.com/) to get an idea for the station availability in your desired area. The data is exported to your Google Drive and you download from there to process it further locally in R.
 
 2. **Clean and aggregate Netatmo Tair data**
 
