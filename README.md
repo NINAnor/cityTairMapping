@@ -1,6 +1,6 @@
 # cityTairMapping
 
-Simplified scripts for the spatial interpolation of point air temperature (Tair) data from private weather stations using a Random Forest model with satellite and other predictor data.
+Simplified scripts for the spatial interpolation of point air temperature (Tair) data from private weather stations using a Random Forest model with satellite and other predictor data. Methods published here: https://www.sciencedirect.com/science/article/pii/S0034425720301619
 
 *DISCALIMER: this repo is not a comprehensive and functional workflow due to the use of three different programming platforms and movement of data between cloud and local environment. The onus is on the user to fill in the gaps where necessary.*
 
